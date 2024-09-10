@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.span-logo {
+	font-weight: 700;
+	font-size: 24px;
+}
+
+button {
+	padding: 10px 20px;
+	border-radius: 12px;
+	border: 0;
+}
+
+.whatsapp {
+	background-color: green;
+	color: white;
+	cursor: pointer;
+}
