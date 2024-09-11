@@ -25,19 +25,53 @@ header {
 	justify-content: space-between;
 }
 
+.row-main {
+	flex-direction: column;
+}
+
 .span-logo {
 	font-weight: 700;
 	font-size: 24px;
 }
 
 button {
-	padding: 10px 20px;
+	padding: 10px 15px;
 	border-radius: 12px;
 	border: 0;
+	cursor: pointer;
 }
 
 .whatsapp {
 	background-color: green;
 	color: white;
-	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+
+	transition: background-color 0.3s ease;
+}
+
+.whatsapp:hover {
+	background-color: darkgreen;
+}
+
+/* Tabs buttons */
+
+.tab-buttons {
+	display: flex;
+	gap: 10px;
+}
+
+.tab-button {
+	border: 1px solid blue;
+	font-size: 18px;
+	background: transparent;
+	color: blue;
+
+	transition: background-color 0.3s ease;
+}
+
+.tab-button:hover {
+	background-color: blue;
+	color: white;
 }
