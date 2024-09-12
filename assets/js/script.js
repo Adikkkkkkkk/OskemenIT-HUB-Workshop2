@@ -57,4 +57,11 @@ window.addEventListener('DOMContentLoaded', () => {
 	}); /* ForEach */
 
 	// Cards
+	const cars = [
+		{
+			carId: '',
+			brandId: '',
+			img: '',
+		},
+	];
 }); /* DOMContentLoaded */
